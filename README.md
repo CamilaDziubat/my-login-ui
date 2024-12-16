@@ -1,6 +1,11 @@
 ## Nome do Projeto: my-login-ui -> Segue Deploy --> ( https://my-login-ui.netlify.app )
 
+## Responsividade
+
 ![image](https://github.com/user-attachments/assets/ed90cb98-3796-45e7-ae75-118d679a32b7)
+
+## IOS
+![image](https://github.com/user-attachments/assets/d8a7911d-39ad-4e80-b53b-15efe02d1194)
 
 
 ### Descrição
