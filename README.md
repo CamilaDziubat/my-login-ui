@@ -28,22 +28,24 @@ my-login-ui/
 └── README.md          # Documento com informações sobre o projeto
 ```
 
-Responsabilidades
+## Responsabilidades
 - **HTML5**: Responsável por estruturar o formulário de login com os campos para usuário e senha, e o botão de Login.
 - **CSS3**: Responsável por definir o estilo visual da página, com cores, tamanhos, margens e a implementação de um design responsivo.
 - **JavaScript**: Garantir que o formulário seja preenchido corretamente, com validações para os campos de usuário e senha. A senha é validada para ter pelo menos 8 caracteres, incluindo números e letras.
 ## Funcionalidades
-Validação de Formulário: O formulário só pode ser enviado se todos os campos estiverem corretamente preenchidos.
-Validação de Senha: A senha deve ter no mínimo 8 caracteres e pode exigir números e letras (personalizável).
-Design Responsivo: O layout adapta-se automaticamente a diferentes tamanhos de tela, oferecendo uma boa experiência de uso em dispositivos móveis e desktops.
-Como Rodar o Projeto Localmente
+- Validação de Formulário: O formulário só pode ser enviado se todos os campos estiverem corretamente preenchidos.
+- Validação de Senha: A senha deve ter no mínimo 8 caracteres e pode exigir números e letras (personalizável).
+- Design Responsivo: O layout adapta-se automaticamente a diferentes tamanhos de tela, oferecendo uma boa experiência de uso em dispositivos móveis e desktops.
+
+## Como Rodar o Projeto Localmente
 Para rodar este projeto localmente, basta seguir os seguintes passos:
 
 Clone o repositório:
 
-bash
+```bash
 Copiar código
 git clone https://github.com/CamilaDziubat/my-login-ui.git
+```
 Abra o arquivo index.html no seu navegador preferido.
 
 Não é necessário configurar servidores ou ferramentas adicionais, pois este é um projeto estático.
@@ -85,8 +87,9 @@ Para adicionar esta descrição ao seu repositório no GitHub, basta:
 Abrir ou criar o arquivo README.md no seu repositório.
 Colar o conteúdo acima.
 Salvar e commitar as alterações:
-bash
+```bash
 Copiar código
 git add README.md
 git commit -m "Adiciona descrição técnica do projeto"
 git push origin main
+```
