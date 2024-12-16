@@ -107,6 +107,28 @@ width: 35vw;
     margin-top: 5px;
 }   
 
+
+/* Outras regras de estilo que você já possui */
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: #f0ffffde;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    background-color: transparent;
+}
+
+footer p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+
+
 @media only screen  and  (max-width:950px) {
     .card-login{
         width: 85%;
@@ -134,5 +156,8 @@ width: 35vw;
     }
     .card-login{
         width: 90%;
+    }
+    footer p {
+        font-size: 10px;
     }
 }
