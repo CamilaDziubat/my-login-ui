@@ -9,15 +9,23 @@ HTML5: Estrutura da página, organização do conteúdo e construção do formul
 CSS3: Estilização da interface, incluindo a responsividade e animações simples para melhorar a experiência do usuário.
 JavaScript: Validação do formulário, com verificação de senha (mínimo de caracteres e regras de segurança).
 Fontes: Utilização da fonte Noto Sans do Google Fonts para um design limpo e moderno.
-Estrutura de Pastas
-bash
-Copiar código
+
+
+
+## Estrutura de Pastas
+
+```markdown
+
+
+```bash
 my-login-ui/
 ├── index.html         # Arquivo principal da página (HTML)
 ├── style.css          # Arquivo de estilos (CSS)
 ├── script.js          # Arquivo de scripts (JavaScript)
 ├── animacion.svg      # Arquivo de imagem (SVG) utilizado na interface
 └── README.md          # Documento com informações sobre o projeto
+```
+
 ## Responsabilidades
 HTML: Responsável por estruturar o formulário de login com os campos para usuário e senha, e o botão de Login.
 CSS: Responsável por definir o estilo visual da página, com cores, tamanhos, margens e a implementação de um design responsivo.
