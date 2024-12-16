@@ -1,5 +1,8 @@
 ## Nome do Projeto: my-login-ui -> Segue Deploy --> ( https://my-login-ui.netlify.app )
 
+![image](https://github.com/user-attachments/assets/ed90cb98-3796-45e7-ae75-118d679a32b7)
+
+
 ### Descrição
 
 `my-login-ui` é uma tela de login moderna e responsiva, desenvolvida com HTML, CSS e JavaScript. A interface oferece uma experiência de login simples e intuitiva, com validações de formulários implementadas diretamente com JavaScript. O design é adaptável a diferentes dispositivos, garantindo uma boa experiência de usuário em desktop, tablet e mobile.
