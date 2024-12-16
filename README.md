@@ -1,5 +1,3 @@
-# my-login-ui
-
 my-login-ui
 Descrição
 my-login-ui é uma tela de login moderna e responsiva, desenvolvida com HTML, CSS e JavaScript. A interface oferece uma experiência de login simples e intuitiva, com validações de formulários implementadas diretamente com JavaScript. O design é adaptável a diferentes dispositivos, garantindo uma boa experiência de usuário em desktop, tablet e mobile.
@@ -57,7 +55,7 @@ Vá até Netlify.
 Crie uma conta ou faça login.
 Clique em New Site from Git.
 Conecte seu GitHub e escolha o repositório do projeto.
-Clique em Deploy e pronto! Netlify fornecerá uma URL para o seu site.
+Clique em Deploy e pronto! O Netlify fornecerá uma URL para o seu site.
 Vercel
 Para fazer o deploy na Vercel, basta:
 
@@ -65,7 +63,7 @@ Acesse Vercel.
 Crie uma conta ou faça login.
 Clique em New Project e conecte sua conta do GitHub.
 Selecione o repositório my-login-ui e clique em Deploy.
-Vercel gerará automaticamente um link para o seu projeto.
+O Vercel gerará automaticamente um link para o seu projeto.
 Melhorias Futuras
 Integração com Backend: Implementar autenticação real de usuários, com envio de dados para um servidor backend.
 Estilização Avançada: Adicionar mais animações, transições e interações visuais no design.
