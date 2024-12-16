@@ -32,7 +32,8 @@ O objetivo do projeto é fornecer uma interface de login visualmente agradável 
 
 A estrutura de pastas do projeto é a seguinte:
 
-```plaintext
+```bash
+
 my-login-ui/
 ├── index.html         # Arquivo principal da página (HTML)
 ├── assets/
