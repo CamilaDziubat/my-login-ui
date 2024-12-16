@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Login</title>
+   
+</head>
+<body>
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Faça o Login<br>E entre para nosso Time</h1>
+            <img src="assets/img/animale.svg" class="login-img" alt="animale">
+        </div>
+        <div class="right-login"> <!-- Corrigido para "right-login" -->
+            <div class="card-login">
+                <h1>Login</h1>
+                <form id="loginForm" action="/login" method="POST">
+                    <div class="textfield">  
+                        <label for="usuario">Usuário</label>
+                        <input type="text" id="usuario" name="usuario" placeholder="Usuário" required>
+                    </div>
+                    <div class="textfield">  
+                        <label for="senha">Senha</label>
+                        <input type="password" id="senha" name="senha" placeholder="Senha" required>
+                        <div id="senhaError" class="error-message"></div> <!-- Mensagem de erro da senha -->
+                    </div>
+                    <button class="btn-login" type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Função para validar a senha
+        function validarSenha(senha) {
+            // Expressões regulares para verificar os requisitos
+            const minLength = /.{8,}/; // Mínimo 8 caracteres
+            const hasUpperCase = /[A-Z]/; // Deve conter pelo menos uma letra maiúscula
+            const hasLowerCase = /[a-z]/; // Deve conter pelo menos uma letra minúscula
+            const hasNumber = /\d/; // Deve conter pelo menos um número
+            const hasSpecialChar = /[!@#$%^&*(),.?":{}|<>]/; // Deve conter pelo menos um caractere especial
+
+            // Verificando se a senha atende a todos os requisitos
+            if (!minLength.test(senha)) {
+                return "A senha deve ter pelo menos 8 caracteres.";
+            }
+            if (!hasUpperCase.test(senha)) {
+                return "A senha deve conter pelo menos uma letra maiúscula.";
+            }
+            if (!hasLowerCase.test(senha)) {
+                return "A senha deve conter pelo menos uma letra minúscula.";
+            }
+            if (!hasNumber.test(senha)) {
+                return "A senha deve conter pelo menos um número.";
+            }
+            if (!hasSpecialChar.test(senha)) {
+                return "A senha deve conter pelo menos um caractere especial.";
+            }
+            return ""; // Senha válida
+        }
+
+        // Função para verificar o formulário antes de enviar
+        document.getElementById('loginForm').onsubmit = function(event) {
+            const senha = document.getElementById('senha').value;
+            const errorElement = document.getElementById('senhaError');
+            const errorMessage = validarSenha(senha);
+
+            if (errorMessage) {
+                errorElement.textContent = errorMessage;
+                event.preventDefault(); // Impede o envio do formulário se a senha for inválida
+            } else {
+                errorElement.textContent = ""; // Limpa a mensagem de erro
+            }
+        }
+    </script>
+</body>
+</html>
