@@ -5,10 +5,15 @@ my-login-ui é uma tela de login moderna e responsiva, desenvolvida com HTML, CS
 O objetivo do projeto é fornecer uma interface de login visualmente agradável e fácil de usar. A validação de entradas (usuário e senha) também é implementada para assegurar que os dados preenchidos sejam válidos antes do envio.
 
 ## Tecnologias Utilizadas
-HTML5: Estrutura da página, organização do conteúdo e construção do formulário de login.
-CSS3: Estilização da interface, incluindo a responsividade e animações simples para melhorar a experiência do usuário.
-JavaScript: Validação do formulário, com verificação de senha (mínimo de caracteres e regras de segurança).
-Fontes: Utilização da fonte Noto Sans do Google Fonts para um design limpo e moderno.
+
+- **HTML5**: Estrutura da página, organização do conteúdo e construção do formulário de login.
+
+- **CSS3**: Estilização da interface, incluindo a responsividade e animações simples para melhorar a experiência do usuário.
+
+- **JavaScript**: Validação do formulário, com verificação de senha (mínimo de caracteres e regras de segurança).
+
+- **Fontes**: Utilização da fonte **Noto Sans** do Google Fonts para um design limpo e moderno.
+
 
 
 
