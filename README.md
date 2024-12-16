@@ -28,12 +28,22 @@ O objetivo do projeto é fornecer uma interface de login visualmente agradável 
 ## Estrutura de Pastas
 
 ```bash
+
+
+A estrutura de pastas do projeto é a seguinte:
+
+```plaintext
 my-login-ui/
 ├── index.html         # Arquivo principal da página (HTML)
-├── style.css          # Arquivo de estilos (CSS)
-├── script.js          # Arquivo de scripts (JavaScript)
-├── animacion.svg      # Arquivo de imagem (SVG) utilizado na interface
-└── README.md          # Documento com informações sobre o projeto
+├── assets/
+│   ├── css/
+│   │   └── style.css   # Arquivo de estilos (CSS)
+│   └── img/
+│       └── animale.svg # Arquivo de imagem (SVG) utilizado na interface
+├── JS/
+│   └── script.js       # Arquivo de scripts (JavaScript)
+└── README.md           # Documento com informações sobre o projeto
+
 ```
 
 ## Responsabilidades
