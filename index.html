@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Login</title>
-   
 </head>
 <body>
     <div class="main-login">
@@ -13,7 +12,7 @@
             <h1>Faça o Login<br>E entre para nosso Time</h1>
             <img src="assets/img/animale.svg" class="login-img" alt="animale">
         </div>
-        <div class="right-login"> <!-- Corrigido para "right-login" -->
+        <div class="right-login">
             <div class="card-login">
                 <h1>Login</h1>
                 <form id="loginForm" action="/login" method="POST">
@@ -24,7 +23,7 @@
                     <div class="textfield">  
                         <label for="senha">Senha</label>
                         <input type="password" id="senha" name="senha" placeholder="Senha" required>
-                        <div id="senhaError" class="error-message"></div> <!-- Mensagem de erro da senha -->
+                        <div id="senhaError" class="error-message"></div>
                     </div>
                     <button class="btn-login" type="submit">Login</button>
                 </form>
@@ -33,16 +32,13 @@
     </div>
 
     <script>
-        // Função para validar a senha
         function validarSenha(senha) {
-            // Expressões regulares para verificar os requisitos
-            const minLength = /.{8,}/; // Mínimo 8 caracteres
-            const hasUpperCase = /[A-Z]/; // Deve conter pelo menos uma letra maiúscula
-            const hasLowerCase = /[a-z]/; // Deve conter pelo menos uma letra minúscula
-            const hasNumber = /\d/; // Deve conter pelo menos um número
-            const hasSpecialChar = /[!@#$%^&*(),.?":{}|<>]/; // Deve conter pelo menos um caractere especial
+            const minLength = /.{8,}/; 
+            const hasUpperCase = /[A-Z]/; 
+            const hasLowerCase = /[a-z]/; 
+            const hasNumber = /\d/; 
+            const hasSpecialChar = /[!@#$%^&*(),.?":{}|<>]/; 
 
-            // Verificando se a senha atende a todos os requisitos
             if (!minLength.test(senha)) {
                 return "A senha deve ter pelo menos 8 caracteres.";
             }
@@ -58,10 +54,9 @@
             if (!hasSpecialChar.test(senha)) {
                 return "A senha deve conter pelo menos um caractere especial.";
             }
-            return ""; // Senha válida
+            return ""; 
         }
 
-        // Função para verificar o formulário antes de enviar
         document.getElementById('loginForm').onsubmit = function(event) {
             const senha = document.getElementById('senha').value;
             const errorElement = document.getElementById('senhaError');
@@ -69,11 +64,15 @@
 
             if (errorMessage) {
                 errorElement.textContent = errorMessage;
-                event.preventDefault(); // Impede o envio do formulário se a senha for inválida
+                event.preventDefault();
             } else {
-                errorElement.textContent = ""; // Limpa a mensagem de erro
+                errorElement.textContent = "";
             }
         }
     </script>
+
+    <footer>
+        <p>Feito por Camila Dziubat</p>
+    </footer>
 </body>
 </html>
