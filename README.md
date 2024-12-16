@@ -39,11 +39,12 @@ my-login-ui/
 ├── assets/
 │   ├── css/
 │   │   └── style.css   # Arquivo de estilos (CSS)
-│   └── img/
-│       └── animale.svg # Arquivo de imagem (SVG) utilizado na interface
-├── JS/
-│   └── script.js       # Arquivo de scripts (JavaScript)
+│   ├── img/
+│   │   └── animale.svg # Arquivo de imagem (SVG) utilizado na interface
+│   └── js/
+│       └── script.js    # Arquivo de scripts (JavaScript)
 └── README.md           # Documento com informações sobre o projeto
+
 
 ```
 
