@@ -27,7 +27,7 @@ O objetivo do projeto é fornecer uma interface de login visualmente agradável 
 
 ## Estrutura de Pastas
 
-```bash
+
 
 
 A estrutura de pastas do projeto é a seguinte:
