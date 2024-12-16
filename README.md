@@ -1,10 +1,10 @@
-my-login-ui
+## my-login-ui
 Descrição
 my-login-ui é uma tela de login moderna e responsiva, desenvolvida com HTML, CSS e JavaScript. A interface oferece uma experiência de login simples e intuitiva, com validações de formulários implementadas diretamente com JavaScript. O design é adaptável a diferentes dispositivos, garantindo uma boa experiência de usuário em desktop, tablet e mobile.
 
 O objetivo do projeto é fornecer uma interface de login visualmente agradável e fácil de usar. A validação de entradas (usuário e senha) também é implementada para assegurar que os dados preenchidos sejam válidos antes do envio.
 
-Tecnologias Utilizadas
+## Tecnologias Utilizadas
 HTML5: Estrutura da página, organização do conteúdo e construção do formulário de login.
 CSS3: Estilização da interface, incluindo a responsividade e animações simples para melhorar a experiência do usuário.
 JavaScript: Validação do formulário, com verificação de senha (mínimo de caracteres e regras de segurança).
@@ -18,11 +18,11 @@ my-login-ui/
 ├── script.js          # Arquivo de scripts (JavaScript)
 ├── animacion.svg      # Arquivo de imagem (SVG) utilizado na interface
 └── README.md          # Documento com informações sobre o projeto
-Responsabilidades
+## Responsabilidades
 HTML: Responsável por estruturar o formulário de login com os campos para usuário e senha, e o botão de Login.
 CSS: Responsável por definir o estilo visual da página, com cores, tamanhos, margens e a implementação de um design responsivo.
 JavaScript: Garantir que o formulário seja preenchido corretamente, com validações para os campos de usuário e senha. A senha é validada para ter pelo menos 8 caracteres, incluindo números e letras.
-Funcionalidades
+## Funcionalidades
 Validação de Formulário: O formulário só pode ser enviado se todos os campos estiverem corretamente preenchidos.
 Validação de Senha: A senha deve ter no mínimo 8 caracteres e pode exigir números e letras (personalizável).
 Design Responsivo: O layout adapta-se automaticamente a diferentes tamanhos de tela, oferecendo uma boa experiência de uso em dispositivos móveis e desktops.
@@ -38,10 +38,10 @@ Abra o arquivo index.html no seu navegador preferido.
 
 Não é necessário configurar servidores ou ferramentas adicionais, pois este é um projeto estático.
 
-Deploy
+## Deploy
 Este projeto pode ser facilmente hospedado em plataformas de deploy gratuito como GitHub Pages, Netlify, ou Vercel.
 
-GitHub Pages
+## GitHub Pages
 Para fazer o deploy no GitHub Pages, siga esses passos:
 
 No seu repositório do GitHub, clique em Settings.
